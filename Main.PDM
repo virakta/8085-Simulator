@@ -1,0 +1,588 @@
+[Root]
+Most Recent Package=Micoprogramming
+
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MainProj
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+
+[Package|Setup|Files Released]
+
+[Package|Setup|Missing Dependency Information]
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=
+
+[Package|Setup|Out-of-Date Dependency Information]
+
+[Package|Setup|Files Added]
+
+[Package|Setup|Files Removed]
+
+[Package|Setup|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=No
+
+[Package|Setup|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Microprocessor Programing 
+
+[Package|Setup|IconGroups]
+Group0=Microprocessor Programing 
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup|Microprocessor Programing ]
+Icon1=main.exe
+Title1=Microprocessor Programing 
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup|Package]
+PackageFolder=C:\MainProj
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Main
+ServerSideCab=
+File1=C:\MainProj\setup.exe
+File2=C:\MainProj\Setup.Lst
+File3=C:\MainProj\main1.CAB
+File4=C:\MainProj\main2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|SetupMP|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\SETUPMPU
+
+[Package|SetupMP|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SetupMP|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SetupMP|Files Found]
+
+[Package|SetupMP|Files Released]
+
+[Package|SetupMP|Missing Dependency Information]
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=
+C:\Program Files\TV Viewer\SSCTL.OCX=
+C:\Program Files\Microsoft Visual Studio\keycmd1.ocx=
+
+[Package|SetupMP|Out-of-Date Dependency Information]
+
+[Package|SetupMP|Files Added]
+
+[Package|SetupMP|Files Removed]
+c:\program files\microsoft visual studio\keycmd1.ocx=
+
+[Package|SetupMP|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\Desktop\MicroPrograming.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=Yes
+C:\WINDOWS\SYSTEM\KEYSTA32.OCX=Yes
+
+[Package|SetupMP|Configure Registry Files]
+Applicable=No
+
+[Package|SetupMP|Configure Remote Servers]
+Applicable=No
+
+[Package|SetupMP|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\CONTROLS\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\TV Viewer\SSCTL.OCX=$(WinSysPath)
+\\Ntserver\v-studio60\Disk 3\COMMON\TOOLS\VB\CONTROLS\KEYSTA32.OCX=$(WinSysPath)
+C:\WINDOWS\Desktop\MicroPrograming.exe=$(AppPath)
+C:\CONTROLS\KEYSTA32.OCX=$(WinSysPath)
+C:\CONTROLS\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\KEYSTA32.OCX=$(WinSysPath)
+
+[Package|SetupMP|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=No
+C:\WINDOWS\Desktop\MicroPrograming.exe=No
+C:\CONTROLS\GRID32.OCX=No
+
+[Package|SetupMP|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Microprocessor Programing
+
+[Package|SetupMP|Microprocessor Programing ]
+Icon1=main.exe
+Title1=Microprocessor Programing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SetupMP|Package]
+PackageFolder=C:\SETUPMPU
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Main
+ServerSideCab=
+File1=C:\SETUPMPU\setup.exe
+File2=C:\SETUPMPU\Setup.Lst
+File3=C:\SETUPMPU\MicroP1.CAB
+File4=C:\SETUPMPU\MicroP2.CAB
+File5=C:\SETUPMPU\MicroP3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|SetupMP|IconGroups]
+Group0=Microprocessor Programing
+PrivateGroup0=True
+Parent0=$(Programs)
+
+
+[Package|SetupMP8085|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PKG
+
+[Package|SetupMP8085|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SetupMP8085|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SetupMP8085|Files Found]
+
+[Package|SetupMP8085|Files Released]
+
+[Package|SetupMP8085|Missing Dependency Information]
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=
+C:\Program Files\TV Viewer\SSCTL.OCX=
+C:\Program Files\Microsoft Visual Studio\keycmd1.ocx=
+C:\Main\keycmd1.ocx=
+
+[Package|SetupMP8085|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|SetupMP8085|Files Added]
+
+[Package|SetupMP8085|Files Removed]
+c:\program files\microsoft visual studio\keycmd1.ocx=
+
+[Package|SetupMP8085|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Main\MicroPrograming.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Main\keycmd1.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+
+[Package|SetupMP8085|Configure Registry Files]
+Applicable=No
+
+[Package|SetupMP8085|Configure Remote Servers]
+Applicable=No
+
+[Package|SetupMP8085|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\CONTROLS\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\TV Viewer\SSCTL.OCX=$(WinSysPath)
+\\Ntserver\v-studio60\Disk 3\COMMON\TOOLS\VB\CONTROLS\KEYSTA32.OCX=$(WinSysPath)
+C:\WINDOWS\Desktop\MicroPrograming.exe=$(AppPath)
+C:\CONTROLS\KEYSTA32.OCX=$(WinSysPath)
+C:\CONTROLS\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\KEYSTA32.OCX=$(WinSysPath)
+C:\Main\MicroPrograming.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Main\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|SetupMP8085|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=No
+C:\WINDOWS\Desktop\MicroPrograming.exe=No
+C:\CONTROLS\GRID32.OCX=No
+C:\Main\MicroPrograming.exe=Yes
+
+[Package|SetupMP8085|Distribution]
+Type=single
+Size=1.44 MB
+Title=8085-Microprocessor Programing
+
+[Package|SetupMP8085|Microprocessor Programing ]
+Icon1=main.exe
+Title1=Microprocessor Programing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SetupMP8085|IconGroups]
+Group0=8085-Microprocessor Programing
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|SetupMP8085|Package]
+PackageFolder=C:\PKG
+ProjectFolder=C:\Main
+ServerSideCab=
+File1=C:\PKG\setup.exe
+File2=C:\PKG\Setup.Lst
+File3=C:\PKG\MicroPrograming.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|NewSetup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MPPACK
+
+[Package|NewSetup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NewSetup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NewSetup|Files Found]
+
+[Package|NewSetup|Files Released]
+
+[Package|NewSetup|Missing Dependency Information]
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=
+C:\Program Files\TV Viewer\SSCTL.OCX=
+C:\Main\keycmd1.ocx=
+
+[Package|NewSetup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|NewSetup|Files Added]
+
+[Package|NewSetup|Files Removed]
+
+[Package|NewSetup|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Main\MicroPrograming.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Main\keycmd1.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+
+[Package|NewSetup|Configure Registry Files]
+Applicable=No
+
+[Package|NewSetup|Configure Remote Servers]
+Applicable=No
+
+[Package|NewSetup|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\CONTROLS\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\TV Viewer\SSCTL.OCX=$(WinSysPath)
+\\Ntserver\v-studio60\Disk 3\COMMON\TOOLS\VB\CONTROLS\KEYSTA32.OCX=$(WinSysPath)
+C:\Main\MicroPrograming.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Main\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|NewSetup|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=No
+C:\Main\MicroPrograming.exe=Yes
+
+[Package|NewSetup|Distribution]
+Type=single
+Size=1.44 MB
+Title=Microprocessor Programing
+
+[Package|NewSetup|Microprocessor Programing ]
+Icon1=main.exe
+Title1=Microprocessor Programing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NewSetup|IconGroups]
+Group0=Microprocessor Programing
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|NewSetup|Package]
+PackageFolder=C:\MPPACK
+ProjectFolder=C:\Main
+ServerSideCab=
+File1=C:\MPPACK\setup.exe
+File2=C:\MPPACK\Setup.Lst
+File3=C:\MPPACK\MicroPrograming.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Micoprogramming|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=h:\MAIN-SETUP
+
+[Package|Micoprogramming|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Micoprogramming|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Micoprogramming|Files Found]
+
+[Package|Micoprogramming|Files Released]
+
+[Package|Micoprogramming|Missing Dependency Information]
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=
+C:\Program Files\TV Viewer\SSCTL.OCX=
+C:\Main\keycmd1.ocx=
+F:\Main\keycmd1.ocx=
+
+[Package|Micoprogramming|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Micoprogramming|Files Added]
+
+[Package|Micoprogramming|Files Removed]
+
+[Package|Micoprogramming|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\Main\MicroPrograming.exe=Yes
+F:\Main\keycmd1.ocx=Yes
+
+[Package|Micoprogramming|Configure Registry Files]
+Applicable=No
+
+[Package|Micoprogramming|Configure Remote Servers]
+Applicable=No
+
+[Package|Micoprogramming|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Agent\AGENTCTL.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\CONTROLS\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\TV Viewer\SSCTL.OCX=$(WinSysPath)
+\\Ntserver\v-studio60\Disk 3\COMMON\TOOLS\VB\CONTROLS\KEYSTA32.OCX=$(WinSysPath)
+C:\Main\MicroPrograming.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Main\keycmd1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Main\MicroPrograming.exe=$(AppPath)
+F:\Main\keycmd1.ocx=$(WinSysPath)
+
+[Package|Micoprogramming|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Main\main.exe=No
+C:\Main\MicroPrograming.exe=Yes
+F:\Main\MicroPrograming.exe=No
+
+[Package|Micoprogramming|Distribution]
+Type=single
+Size=1.44 MB
+Title=Microprocessor Programing By Shivu Viraktamath
+
+[Package|Micoprogramming|Microprocessor Programing ]
+Icon1=main.exe
+Title1=Microprocessor Programing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Micoprogramming|IconGroups]
+Group0=Microprocessor Programing
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Micoprogramming|Package]
+PackageFolder=h:\MAIN-SETUP
+ProjectFolder=F:\Main
+ServerSideCab=
+File1=h:\MAIN-SETUP\setup.exe
+File2=h:\MAIN-SETUP\Setup.Lst
+File3=h:\MAIN-SETUP\MicroPrograming.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
